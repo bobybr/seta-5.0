@@ -44,7 +44,7 @@ const UpdateUserService = async ({
     contactId,
     ticketId,
     userId,
-    recorrency
+    recorrency,
   } = scheduleData;
 
   try {
@@ -60,7 +60,7 @@ const UpdateUserService = async ({
     contactId,
     ticketId,
     userId,
-    recorrency
+    recorrency,
   });
 
   await schedule.reload();
